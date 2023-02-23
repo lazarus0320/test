@@ -2,7 +2,7 @@ import React from 'react';
 import { selector, useRecoilValueLoadable } from 'recoil';
 
 const listQueryState = selector({
-  key: 'ListQuery',
+  key: 'ListQuery1',
   get: async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/todos');
     const data = await response.json();
